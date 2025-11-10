@@ -1,7 +1,7 @@
 import { Component, output } from '@angular/core';
 import { input } from '@angular/core';
-import { Todo } from '../../model/todo.type';
-import { HighlightCompleted } from '../../directives/highlight-completed';
+import { Todo } from '../../core/model/todo.type';
+import { HighlightCompleted } from '../../core/directives/highlight-completed';
 import { UpperCasePipe } from '@angular/common';
 
 @Component({

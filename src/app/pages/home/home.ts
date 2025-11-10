@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { Greeting } from '../components/greeting/greeting';
-import { Counter } from "../components/counter/counter";
+import { Greeting } from '../../shared/greeting/greeting';
+import { Counter } from "../../shared/counter/counter";
 
 @Component({
   selector: 'app-home',

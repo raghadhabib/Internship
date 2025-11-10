@@ -1,0 +1,6 @@
+<div class="page-container">
+  <app-greeting [Message]="HomeMessage()"></app-greeting>
+  <app-counter></app-counter>
+  <p> See what happen in your console when you type in the input box below: </p>
+  <input type="text" (keyup)="keyUpHandle($event)" />
+</div>

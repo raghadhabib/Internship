@@ -1,21 +1,17 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from "./components/header/header";
+import { Header } from "./layout/header/header";
+
+import { Layout } from './layout/layout/layout';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header ],
+  imports: [RouterOutlet, Header, Layout],
   template: `
-    <app-header></app-header>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
+    <app-layout></app-layout>
   `,
-  styles: [`
-    main{
-      padding: 16px;
-    }
-    `
+  styles: [
+    
   ],
 })
 export class App {
